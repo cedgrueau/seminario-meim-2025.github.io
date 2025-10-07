@@ -33,6 +33,10 @@ h2 {
     color: #000000ff;
 }
 
+.callout-tip .callout-header {
+    color: #306b24ff;
+}
+
 .callout-important .callout-header {
     color: #d60000ff;
 }
