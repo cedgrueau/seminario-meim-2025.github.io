@@ -1,0 +1,71 @@
+/* Custom styles for Mastering Quarto website */
+
+/* Headers styling */
+h1 {
+    color: #5f1437;
+    border-bottom: 2px solid #fc3d29;
+    padding-bottom: 0.3em;
+}
+
+h2 {
+    color: #5f1437;
+    margin-top: 1.5em;
+}
+
+/* Navigation bar enhancement */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    background-color: #5f1437;
+}
+
+/* Callout customization */
+.callout {
+    border-left-color: #ffd2f5;
+
+}
+
+.callout .callout-header {
+    color: #ffffffff;
+    background-color: #fc3d29;
+}
+
+.callout-note .callout-header {
+    color: #000000ff;
+}
+
+.callout-important .callout-header {
+    color: #d60000ff;
+}
+
+/* Link styling */
+a {
+    color: #5f1437;
+}
+
+a:hover {
+    color: #fc3d29;
+    text-decoration: underline;
+}
+
+/* Content block spacing */
+.content-block {
+    margin: 2em 0;
+}
+
+/* Custom styles for the title block banner */
+.quarto-title-block .quarto-title-banner {
+    background-size: auto 40%;
+    /* Scales the logo height to 80% of the banner, width adjusts automatically */
+    background-position: right center;
+    /* Positions the logo on the right */
+    background-repeat: no-repeat;
+    height: 120px;
+    /* Sets a fixed height for the entire banner */
+    background-color: #5f1437;
+}
+
+.about-content ul {
+    display: inline-block;
+    text-align: left;
+    list-style-position: inside;
+}

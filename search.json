@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "installation.html",
+    "href": "installation.html",
+    "title": "Pre-Seminar Setup",
+    "section": "",
+    "text": "Please complete these setup steps before the seminar to ensure a smooth hands-on experience.\n\n\nQuarto works in combination with a text editor to create documents. Most users use an IDE (Integrated development environment) to edit documents and improve he workflow.\nWe recommand two possibles setup for the seminar:\n\n\n\n\n\nA better solution for users who want a data-science-focused IDE ready for Quarto. Recommander for beginners.\n\n\n\nDownload and install Positron from positron.posit.co. It is a free and open-source IDE.\n\n\n\n\n\n\n\nNoteYou’re Ready!\n\n\n\nNo further installation is needed.\n\n\n\n\n\nYou can test Quarto setup by following the instructions in Section 2.\n\n\n\n\n\n\n\nA better solution for users who prefer VS Code’s vast ecosystem.\n\n\n\nDownload Quarto: Go to the official Quarto downloads page and download the installer for your operating system (Windows, macOS, or Linux) .\nRun the Installer: Execute the downloaded installer and follow the on-screen instructions.\nVerify Installation: Open a terminal (or Command Prompt) and run the following command to confirm Quarto is installed correctly and check for any additional dependencies like Pandoc or LaTeX :\n\n    quarto check\n\n\n\n\nInstall VS Code: Download and install VS Code from code.visualstudio.com.\nInstall the Quarto Extension\n\nOpen VS Code.\nGo to the Extensions view (Ctrl+Shift+X).\nSearch for quarto and install the extension published by Quarto . This extension provides syntax highlighting, preview, and code execution tools.\n\nInstall Language Support (Optional but Recommended) For enhanced support in Python, R, or Julia code cells, install the relevant extensions from the marketplace (e.g., Python, R) .\n\n\n\n\nYou can test Quarto setup by following the instructions in Section 2."
+  },
+  {
+    "objectID": "installation.html#installation-guide",
+    "href": "installation.html#installation-guide",
+    "title": "Pre-Seminar Setup",
+    "section": "",
+    "text": "Please complete these setup steps before the seminar to ensure a smooth hands-on experience.\n\n\nQuarto works in combination with a text editor to create documents. Most users use an IDE (Integrated development environment) to edit documents and improve he workflow.\nWe recommand two possibles setup for the seminar:\n\n\n\n\n\nA better solution for users who want a data-science-focused IDE ready for Quarto. Recommander for beginners.\n\n\n\nDownload and install Positron from positron.posit.co. It is a free and open-source IDE.\n\n\n\n\n\n\n\nNoteYou’re Ready!\n\n\n\nNo further installation is needed.\n\n\n\n\n\nYou can test Quarto setup by following the instructions in Section 2.\n\n\n\n\n\n\n\nA better solution for users who prefer VS Code’s vast ecosystem.\n\n\n\nDownload Quarto: Go to the official Quarto downloads page and download the installer for your operating system (Windows, macOS, or Linux) .\nRun the Installer: Execute the downloaded installer and follow the on-screen instructions.\nVerify Installation: Open a terminal (or Command Prompt) and run the following command to confirm Quarto is installed correctly and check for any additional dependencies like Pandoc or LaTeX :\n\n    quarto check\n\n\n\n\nInstall VS Code: Download and install VS Code from code.visualstudio.com.\nInstall the Quarto Extension\n\nOpen VS Code.\nGo to the Extensions view (Ctrl+Shift+X).\nSearch for quarto and install the extension published by Quarto . This extension provides syntax highlighting, preview, and code execution tools.\n\nInstall Language Support (Optional but Recommended) For enhanced support in Python, R, or Julia code cells, install the relevant extensions from the marketplace (e.g., Python, R) .\n\n\n\n\nYou can test Quarto setup by following the instructions in Section 2."
+  },
+  {
+    "objectID": "installation.html#sec-verification",
+    "href": "installation.html#sec-verification",
+    "title": "Pre-Seminar Setup",
+    "section": "Final Verification",
+    "text": "Final Verification\nRegardless of the IDE you chose, open it and create a new file called test.qmd. Paste the following basic content into it:\n\n\n\nListing 1: Código fonte de uma pagina Quarto (.qmd) para testar a instalação\n\n\n---\ntitle: \"My First Quarto Article\"\nauthor:\n  - name: \"João Silva\"\n    affiliation: \"Instituto Superior de Engenharia de Lisboa\"\n    email: jozinho@gmail.com\nformat: html\nlang: pt\ndate: \"October 23, 2025\"\n---\n\n# Introduction\n\nThis is a simple Quarto article. Quarto allows you to mix text, code, and output in a single document.\n\n\n\nTo verify everything works:\n\nIn Positron: Use the same Quarto: Preview command or click the preview button in the editor toolbar .\nIn VS Code: Use the Quarto: Preview command (Ctrl+Shift+K) .\n\nIf a preview window opens showing a formatted document similar to this preview, your installation is successful."
+  },
+  {
+    "objectID": "installation.html#troubleshooting",
+    "href": "installation.html#troubleshooting",
+    "title": "Pre-Seminar Setup",
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\n\nStuck? Visit the Quarto Getting Started Guide\nHelp during seminar: We’ll verify setups at the beginning"
+  },
+  {
+    "objectID": "course-materials.html",
+    "href": "course-materials.html",
+    "title": "Course Materials",
+    "section": "",
+    "text": "This page contains all the materials you will need for the “Mastering Quarto” seminar.\n\n\n\n\nInstallation Guide\nSoftware Checklist\n\n\n\n\n\n\n\nIntroduction to Quarto (PDF) - Available soon\nAdvanced Multimedia Features (PDF) - Available soon\n\n\n\n\n\n\n\nExercise 1: Building Your First Quarto Document - Available soon\nExercise 2: Creating an Interactive Plot - Available soon\n\n\n\n\n\n\n\nOfficial Quarto Documentation\nQuarto GitHub Repository"
+  },
+  {
+    "objectID": "course-materials.html#core-resources",
+    "href": "course-materials.html#core-resources",
+    "title": "Course Materials",
+    "section": "",
+    "text": "This page contains all the materials you will need for the “Mastering Quarto” seminar.\n\n\n\n\nInstallation Guide\nSoftware Checklist\n\n\n\n\n\n\n\nIntroduction to Quarto (PDF) - Available soon\nAdvanced Multimedia Features (PDF) - Available soon\n\n\n\n\n\n\n\nExercise 1: Building Your First Quarto Document - Available soon\nExercise 2: Creating an Interactive Plot - Available soon\n\n\n\n\n\n\n\nOfficial Quarto Documentation\nQuarto GitHub Repository"
+  },
+  {
+    "objectID": "materials/test.html",
+    "href": "materials/test.html",
+    "title": "My First Quarto Article",
+    "section": "",
+    "text": "Introduction\nThis is a simple Quarto article. Quarto allows you to mix text, code, and output in a single document.\n\n\n\n\n\n\nNota\n\n\n\nThe arcticle is also available for download, following the link on the upper right side of the page."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About the Seminar",
+    "section": "",
+    "text": "This 2-hour intensive seminar is designed for Master’s students in Computer Science and Multimedia who are preparing to write their theses. It is also relevant to everyone who is doing research and publish their results in an open and transparent approach. We focus on practical, immediately applicable skills.\n\n\nBy the end of this seminar, you will be able to:\n\n\nCreate and render basic Quarto documents\nBuild a multi-page website like this one\nIntegrate computational content and multimedia\nImplement a reproducible workflow for your thesis / research\n\n\n\n\n\nFinal year Master’s students looking to enhance their technical publishing skills and create compelling, interactive thesis documents."
+  },
+  {
+    "objectID": "about.html#seminar-overview",
+    "href": "about.html#seminar-overview",
+    "title": "About the Seminar",
+    "section": "",
+    "text": "This 2-hour intensive seminar is designed for Master’s students in Computer Science and Multimedia who are preparing to write their theses. It is also relevant to everyone who is doing research and publish their results in an open and transparent approach. We focus on practical, immediately applicable skills.\n\n\nBy the end of this seminar, you will be able to:\n\n\nCreate and render basic Quarto documents\nBuild a multi-page website like this one\nIntegrate computational content and multimedia\nImplement a reproducible workflow for your thesis / research\n\n\n\n\n\nFinal year Master’s students looking to enhance their technical publishing skills and create compelling, interactive thesis documents."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction to Quarto",
+    "section": "",
+    "text": "In the evolving landscape of academic publishing, the demand for reproducible research and dynamic content has never been greater. Traditional publishing workflows often create silos between data analysis, manuscript preparation, and final publication. Quarto emerges as a unified solution that bridges these gaps, offering researchers a robust framework for creating documents that are both computationally reproducible and professionally formatted.\n\n\n\n\nDate: October 23, 2025\nTime: 18:30 - 20:30\nLocation: Edifício F\nRoom: Auditório C\n\n\n\n\nCédric Grueau\nDepartment of Computer Science and Engineering - ISEL\n\n\n\n\n\n\n\n\n\nNoneWhy Quarto for Your Thesis/Research?\n\n\n\n\nReproducibility: Integrate code, results, and narrative seamlessly\nMulti-Format Output: Create PDF, HTML, Word, and presentations from one source\nDynamic Content: Embed interactive visualizations and computational elements\n\n\n\n\n\n\n\n\nQuarto document fundamentals\nCreating interactive websites\nAdvanced multimedia integration\nThesis workflow optimization\n\n\n\n\n\n\nLanguage Agnostic: Python, R, Julia, Observable\nProfessional Output: LaTeX-quality PDFs\nCollaboration Ready: Version control friendly"
+  },
+  {
+    "objectID": "index.html#welcome-to-the-quarto-seminar",
+    "href": "index.html#welcome-to-the-quarto-seminar",
+    "title": "Introduction to Quarto",
+    "section": "",
+    "text": "In the evolving landscape of academic publishing, the demand for reproducible research and dynamic content has never been greater. Traditional publishing workflows often create silos between data analysis, manuscript preparation, and final publication. Quarto emerges as a unified solution that bridges these gaps, offering researchers a robust framework for creating documents that are both computationally reproducible and professionally formatted.\n\n\n\n\nDate: October 23, 2025\nTime: 18:30 - 20:30\nLocation: Edifício F\nRoom: Auditório C\n\n\n\n\nCédric Grueau\nDepartment of Computer Science and Engineering - ISEL\n\n\n\n\n\n\n\n\n\nNoneWhy Quarto for Your Thesis/Research?\n\n\n\n\nReproducibility: Integrate code, results, and narrative seamlessly\nMulti-Format Output: Create PDF, HTML, Word, and presentations from one source\nDynamic Content: Embed interactive visualizations and computational elements\n\n\n\n\n\n\n\n\nQuarto document fundamentals\nCreating interactive websites\nAdvanced multimedia integration\nThesis workflow optimization\n\n\n\n\n\n\nLanguage Agnostic: Python, R, Julia, Observable\nProfessional Output: LaTeX-quality PDFs\nCollaboration Ready: Version control friendly"
+  },
+  {
+    "objectID": "index.html#pre-seminar-setup",
+    "href": "index.html#pre-seminar-setup",
+    "title": "Introduction to Quarto",
+    "section": "Pre-seminar setup",
+    "text": "Pre-seminar setup\n\n\n\n\n\n\nImportant\n\n\n\nDon’t forget to complete the pre-seminar setup before you arrive!\n\n\n\nQuick Start\nReady to begin? Check out the Installation Guide to set up your environment before the seminar."
+  }
+]
